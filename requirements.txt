@@ -3,7 +3,7 @@ tensorflow # For the CNN model - Use 'tensorflow-cpu' if you don't need/have GPU
 
 # Computer Vision
 opencv-python-headless # For image/video processing (use 'opencv-python' if you need full GUI features locally)
-opencv-python
+
 
 # Web Framework
 streamlit
