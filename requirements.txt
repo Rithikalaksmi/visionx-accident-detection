@@ -1,0 +1,21 @@
+ultralytics # For YOLOv8 object detection
+tensorflow # For the CNN model - Use 'tensorflow-cpu' if you don't need/have GPU support
+
+# Computer Vision
+opencv-python-headless # For image/video processing (use 'opencv-python' if you need full GUI features locally)
+
+# Web Framework
+streamlit
+
+# Data Handling / Utilities
+numpy
+Pillow # Often used by Streamlit for image handling
+
+# File Validation
+python-magic # For MIME type checking (Requires libmagic system library on Linux/macOS)
+# If on Windows, you might need to manually install python-magic-bin instead after removing python-magic:
+# pip uninstall python-magic
+# pip install python-magic-bin
+
+# Add any other specific libraries you might have used below this line
+# e.g., pandas, matplotlib, scikit-learn (if used for other analysis)
